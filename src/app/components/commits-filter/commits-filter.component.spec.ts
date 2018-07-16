@@ -1,23 +1,25 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { By } from '@angular/platform-browser';
 
 import { CommitsFilterComponent } from './commits-filter.component';
 
 describe('CommitsFilterComponent', () => {
   let component: CommitsFilterComponent;
   let fixture: ComponentFixture<CommitsFilterComponent>;
+  let de;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CommitsFilterComponent ]
-    })
-    .compileComponents();
-  }));
+      declarations: [
+        CommitsFilterComponent,
+        CommitsFilterComponent,
+      ]
+    }).compileComponents();
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(CommitsFilterComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+    de = fixture.debugElement;
+  }));
 
   it('should create', () => {
     expect(component).toBeTruthy();
