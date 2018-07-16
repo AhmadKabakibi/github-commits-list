@@ -1,0 +1,2372 @@
+[
+  {
+    "sha": "3255cf3c3675037725ea579fcdfa373d06977fb4",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6MzI1NWNmM2MzNjc1MDM3NzI1ZWE1NzlmY2RmYTM3M2QwNjk3N2ZiNA==",
+    "commit": {
+      "author": {
+        "name": "mmalerba",
+        "email": "mmalerba@google.com",
+        "date": "2018-07-12T14:55:32Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:55:32Z"
+      },
+      "message": "virtual-scroll: use `detectChanges` rather than `markForCheck` in `CdkVirtualScrollViewport` (#12158)",
+      "tree": {
+        "sha": "68f78d18f061f16e27636b052569920f82fa710d",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/68f78d18f061f16e27636b052569920f82fa710d"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/3255cf3c3675037725ea579fcdfa373d06977fb4",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/3255cf3c3675037725ea579fcdfa373d06977fb4",
+    "html_url": "https://github.com/angular/material2/commit/3255cf3c3675037725ea579fcdfa373d06977fb4",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/3255cf3c3675037725ea579fcdfa373d06977fb4/comments",
+    "author": {
+      "login": "mmalerba",
+      "id": 14793288,
+      "node_id": "MDQ6VXNlcjE0NzkzMjg4",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/14793288?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mmalerba",
+      "html_url": "https://github.com/mmalerba",
+      "followers_url": "https://api.github.com/users/mmalerba/followers",
+      "following_url": "https://api.github.com/users/mmalerba/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mmalerba/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mmalerba/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mmalerba/subscriptions",
+      "organizations_url": "https://api.github.com/users/mmalerba/orgs",
+      "repos_url": "https://api.github.com/users/mmalerba/repos",
+      "events_url": "https://api.github.com/users/mmalerba/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mmalerba/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "45b949a2d9a0741544a2922b638b2a7c6324392b",
+        "url": "https://api.github.com/repos/angular/material2/commits/45b949a2d9a0741544a2922b638b2a7c6324392b",
+        "html_url": "https://github.com/angular/material2/commit/45b949a2d9a0741544a2922b638b2a7c6324392b"
+      }
+    ]
+  },
+  {
+    "sha": "45b949a2d9a0741544a2922b638b2a7c6324392b",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6NDViOTQ5YTJkOWEwNzQxNTQ0YTI5MjJiNjM4YjJhN2M2MzI0MzkyYg==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:54:04Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:54:04Z"
+      },
+      "message": "fix(select): blank option label throwing off alignment (#11994)\n\nFixes selecting an option that has a blank string as a label throwing off the alignment of `mat-select`.\r\n\r\nFixes #11969.",
+      "tree": {
+        "sha": "509d520c8f907b8eb6c6d62fe8546d634d2769ea",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/509d520c8f907b8eb6c6d62fe8546d634d2769ea"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/45b949a2d9a0741544a2922b638b2a7c6324392b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/45b949a2d9a0741544a2922b638b2a7c6324392b",
+    "html_url": "https://github.com/angular/material2/commit/45b949a2d9a0741544a2922b638b2a7c6324392b",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/45b949a2d9a0741544a2922b638b2a7c6324392b/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b1d4fe15b7d1b386dfba470e91c1633b741f3ac6",
+        "url": "https://api.github.com/repos/angular/material2/commits/b1d4fe15b7d1b386dfba470e91c1633b741f3ac6",
+        "html_url": "https://github.com/angular/material2/commit/b1d4fe15b7d1b386dfba470e91c1633b741f3ac6"
+      }
+    ]
+  },
+  {
+    "sha": "b1d4fe15b7d1b386dfba470e91c1633b741f3ac6",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6YjFkNGZlMTViN2QxYjM4NmRmYmE0NzBlOTFjMTYzM2I3NDFmM2FjNg==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:53:09Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:53:09Z"
+      },
+      "message": "fix(datepicker): calendar input changes not being propagated on child views (#12004)\n\nFixes the new values for the calendar's `minDate`, `maxDate` and `dateFilter` not being propagated to the current calendar view until the next change detection cycle.\r\n\r\nFixes #11737.",
+      "tree": {
+        "sha": "e0e9ed5687c7e284abcbb70b5cc99d7fbe359665",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/e0e9ed5687c7e284abcbb70b5cc99d7fbe359665"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/b1d4fe15b7d1b386dfba470e91c1633b741f3ac6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/b1d4fe15b7d1b386dfba470e91c1633b741f3ac6",
+    "html_url": "https://github.com/angular/material2/commit/b1d4fe15b7d1b386dfba470e91c1633b741f3ac6",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/b1d4fe15b7d1b386dfba470e91c1633b741f3ac6/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "32da0388cedcd9894d654e8056f4c10894339b5a",
+        "url": "https://api.github.com/repos/angular/material2/commits/32da0388cedcd9894d654e8056f4c10894339b5a",
+        "html_url": "https://github.com/angular/material2/commit/32da0388cedcd9894d654e8056f4c10894339b5a"
+      }
+    ]
+  },
+  {
+    "sha": "32da0388cedcd9894d654e8056f4c10894339b5a",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6MzJkYTAzODhjZWRjZDk4OTRkNjU0ZTgwNTZmNGMxMDg5NDMzOWI1YQ==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:47:53Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:47:53Z"
+      },
+      "message": "fix(datepicker): all cells being read out as selected (#12006)\n\nCurrently we omit the `aria-selected` attribute on the individual date cells which causes NVDA to read out all cells as being selected. These changes set the attribute in order to allow for screen readers to pick up the selected state correctly.",
+      "tree": {
+        "sha": "3b3008d74bcdc960b65424fe7b98cff6e04586af",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/3b3008d74bcdc960b65424fe7b98cff6e04586af"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/32da0388cedcd9894d654e8056f4c10894339b5a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/32da0388cedcd9894d654e8056f4c10894339b5a",
+    "html_url": "https://github.com/angular/material2/commit/32da0388cedcd9894d654e8056f4c10894339b5a",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/32da0388cedcd9894d654e8056f4c10894339b5a/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cb6c6215c99ddc9ef26fa9851b120c265130f67d",
+        "url": "https://api.github.com/repos/angular/material2/commits/cb6c6215c99ddc9ef26fa9851b120c265130f67d",
+        "html_url": "https://github.com/angular/material2/commit/cb6c6215c99ddc9ef26fa9851b120c265130f67d"
+      }
+    ]
+  },
+  {
+    "sha": "cb6c6215c99ddc9ef26fa9851b120c265130f67d",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6Y2I2YzYyMTVjOTlkZGM5ZWYyNmZhOTg1MWIxMjBjMjY1MTMwZjY3ZA==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:46:49Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:46:49Z"
+      },
+      "message": "fix(button): unable to set a custom tabindex on a link button (#12042)\n\nFixes the consumer's `tabIndex` being overwritten to always be 0 on button links.\r\n\r\nFixes #12041.",
+      "tree": {
+        "sha": "84d2509facffcfcff755cdb85358191112c45586",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/84d2509facffcfcff755cdb85358191112c45586"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/cb6c6215c99ddc9ef26fa9851b120c265130f67d",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/cb6c6215c99ddc9ef26fa9851b120c265130f67d",
+    "html_url": "https://github.com/angular/material2/commit/cb6c6215c99ddc9ef26fa9851b120c265130f67d",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/cb6c6215c99ddc9ef26fa9851b120c265130f67d/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c134026cdf7e16d120cfd2298e925bca10ca61d0",
+        "url": "https://api.github.com/repos/angular/material2/commits/c134026cdf7e16d120cfd2298e925bca10ca61d0",
+        "html_url": "https://github.com/angular/material2/commit/c134026cdf7e16d120cfd2298e925bca10ca61d0"
+      }
+    ]
+  },
+  {
+    "sha": "c134026cdf7e16d120cfd2298e925bca10ca61d0",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6YzEzNDAyNmNkZjdlMTZkMTIwY2ZkMjI5OGU5MjViY2ExMGNhNjFkMA==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:46:08Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:46:08Z"
+      },
+      "message": "fix: sanity checks throwing an error if scripts are set in the head (#12068)\n\nFixes the sanity checks throwing an error if they run too early and they're inserted before the `body`.\r\n\r\nFixes #12026.",
+      "tree": {
+        "sha": "658f68e7c97d446da0742104546e05f974e1ff27",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/658f68e7c97d446da0742104546e05f974e1ff27"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/c134026cdf7e16d120cfd2298e925bca10ca61d0",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/c134026cdf7e16d120cfd2298e925bca10ca61d0",
+    "html_url": "https://github.com/angular/material2/commit/c134026cdf7e16d120cfd2298e925bca10ca61d0",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/c134026cdf7e16d120cfd2298e925bca10ca61d0/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5c6f25e0537742474a25d28bf1a308480ed93c2f",
+        "url": "https://api.github.com/repos/angular/material2/commits/5c6f25e0537742474a25d28bf1a308480ed93c2f",
+        "html_url": "https://github.com/angular/material2/commit/5c6f25e0537742474a25d28bf1a308480ed93c2f"
+      }
+    ]
+  },
+  {
+    "sha": "5c6f25e0537742474a25d28bf1a308480ed93c2f",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6NWM2ZjI1ZTA1Mzc3NDI0NzRhMjVkMjhiZjFhMzA4NDgwZWQ5M2MyZg==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:45:27Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:45:27Z"
+      },
+      "message": "fix(bottom-sheet): close on page navigation (#12106)\n\nSimilarly to the dialog, closes the bottom sheet when the user navigates to another page. The behavior can be opted out of.",
+      "tree": {
+        "sha": "3cf5bfc73c03241048ddaebebb41021dc57429b9",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/3cf5bfc73c03241048ddaebebb41021dc57429b9"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/5c6f25e0537742474a25d28bf1a308480ed93c2f",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/5c6f25e0537742474a25d28bf1a308480ed93c2f",
+    "html_url": "https://github.com/angular/material2/commit/5c6f25e0537742474a25d28bf1a308480ed93c2f",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/5c6f25e0537742474a25d28bf1a308480ed93c2f/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fcc887535bfe957f12ec6a8ba1a4090fec1be60b",
+        "url": "https://api.github.com/repos/angular/material2/commits/fcc887535bfe957f12ec6a8ba1a4090fec1be60b",
+        "html_url": "https://github.com/angular/material2/commit/fcc887535bfe957f12ec6a8ba1a4090fec1be60b"
+      }
+    ]
+  },
+  {
+    "sha": "fcc887535bfe957f12ec6a8ba1a4090fec1be60b",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6ZmNjODg3NTM1YmZlOTU3ZjEyZWM2YThiYTFhNDA5MGZlYzFiZTYwYg==",
+    "commit": {
+      "author": {
+        "name": "Paul Gschwendtner",
+        "email": "paulgschwendtner@gmail.com",
+        "date": "2018-07-12T14:44:45Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:44:45Z"
+      },
+      "message": "fix(selection-list): form control disable locks disabled property (#12113)\n\nFixes that the `setDisabledState` control value accessor hook updates the disabled state of each option individually. This causes the `MatSelectionList#disabled` property to no longer have any effect.\r\n\r\nFixes #12107",
+      "tree": {
+        "sha": "0aed5fbf11b9a34a15914959d91df922dadc1115",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/0aed5fbf11b9a34a15914959d91df922dadc1115"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/fcc887535bfe957f12ec6a8ba1a4090fec1be60b",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/fcc887535bfe957f12ec6a8ba1a4090fec1be60b",
+    "html_url": "https://github.com/angular/material2/commit/fcc887535bfe957f12ec6a8ba1a4090fec1be60b",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/fcc887535bfe957f12ec6a8ba1a4090fec1be60b/comments",
+    "author": {
+      "login": "DevVersion",
+      "id": 4987015,
+      "node_id": "MDQ6VXNlcjQ5ODcwMTU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4987015?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DevVersion",
+      "html_url": "https://github.com/DevVersion",
+      "followers_url": "https://api.github.com/users/DevVersion/followers",
+      "following_url": "https://api.github.com/users/DevVersion/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DevVersion/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DevVersion/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DevVersion/subscriptions",
+      "organizations_url": "https://api.github.com/users/DevVersion/orgs",
+      "repos_url": "https://api.github.com/users/DevVersion/repos",
+      "events_url": "https://api.github.com/users/DevVersion/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DevVersion/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a248c1805674f4847433186c32d6b975a3a32217",
+        "url": "https://api.github.com/repos/angular/material2/commits/a248c1805674f4847433186c32d6b975a3a32217",
+        "html_url": "https://github.com/angular/material2/commit/a248c1805674f4847433186c32d6b975a3a32217"
+      }
+    ]
+  },
+  {
+    "sha": "a248c1805674f4847433186c32d6b975a3a32217",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6YTI0OGMxODA1Njc0ZjQ4NDc0MzMxODZjMzJkNmI5NzVhM2EzMjIxNw==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:43:36Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:43:36Z"
+      },
+      "message": "fix(overlay): account for virtual keyboard offset on mobile devices (#12119)\n\nThis is taking over from #11947. Fixes the connected overlay positioning being thrown off, if it is opened while an input is focused (e.g. when building an autocomplete component). The issue comes from the fact that the browser will offset the entire page in order to put the input in the middle and to make space for the virtual keyboard.\r\n\r\nFixes #6341.",
+      "tree": {
+        "sha": "d64a64fcc97f239c8dd7df640255bfc60becbc1f",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/d64a64fcc97f239c8dd7df640255bfc60becbc1f"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/a248c1805674f4847433186c32d6b975a3a32217",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/a248c1805674f4847433186c32d6b975a3a32217",
+    "html_url": "https://github.com/angular/material2/commit/a248c1805674f4847433186c32d6b975a3a32217",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/a248c1805674f4847433186c32d6b975a3a32217/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "85b8f32205f3bdb65a8dae636fb9bb36d4aae857",
+        "url": "https://api.github.com/repos/angular/material2/commits/85b8f32205f3bdb65a8dae636fb9bb36d4aae857",
+        "html_url": "https://github.com/angular/material2/commit/85b8f32205f3bdb65a8dae636fb9bb36d4aae857"
+      }
+    ]
+  },
+  {
+    "sha": "85b8f32205f3bdb65a8dae636fb9bb36d4aae857",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6ODViOGYzMjIwNWYzYmRiNjVhOGRhZTYzNmZiOWJiMzZkNGFhZTg1Nw==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:42:58Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:42:58Z"
+      },
+      "message": "fix(radio): circle not being greyed out when disabled (#12127)\n\nFixes the radio button circle not being greyed out when it is disabled. It seems like we had the styles in place already, however they were with a lower specificity than the other theme styles.\r\n\r\nFixes #12125.",
+      "tree": {
+        "sha": "72545250069a8b00543ff084da651fdbb563d39c",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/72545250069a8b00543ff084da651fdbb563d39c"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/85b8f32205f3bdb65a8dae636fb9bb36d4aae857",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/85b8f32205f3bdb65a8dae636fb9bb36d4aae857",
+    "html_url": "https://github.com/angular/material2/commit/85b8f32205f3bdb65a8dae636fb9bb36d4aae857",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/85b8f32205f3bdb65a8dae636fb9bb36d4aae857/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "79bacf2019f18daa7b81f1f320a6d811eb034d1c",
+        "url": "https://api.github.com/repos/angular/material2/commits/79bacf2019f18daa7b81f1f320a6d811eb034d1c",
+        "html_url": "https://github.com/angular/material2/commit/79bacf2019f18daa7b81f1f320a6d811eb034d1c"
+      }
+    ]
+  },
+  {
+    "sha": "79bacf2019f18daa7b81f1f320a6d811eb034d1c",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6NzliYWNmMjAxOWYxOGRhYTdiODFmMWYzMjBhNmQ4MTFlYjAzNGQxYw==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:42:06Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:42:06Z"
+      },
+      "message": "fix(overlay): remove panelClass when the overlay is detached (#12142)\n\nRemoves the `panelClass` when the overlay is detached. This ensures that any overlay styling that targets the panel isn't left behind while the panel is detached.\r\n\r\nRelates to #12099.",
+      "tree": {
+        "sha": "9559dce664c6b89dfe0c7e222efea8f2a47f8005",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/9559dce664c6b89dfe0c7e222efea8f2a47f8005"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/79bacf2019f18daa7b81f1f320a6d811eb034d1c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/79bacf2019f18daa7b81f1f320a6d811eb034d1c",
+    "html_url": "https://github.com/angular/material2/commit/79bacf2019f18daa7b81f1f320a6d811eb034d1c",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/79bacf2019f18daa7b81f1f320a6d811eb034d1c/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "04934b43e303c33bfea2e82f2c5ac4b8d472d095",
+        "url": "https://api.github.com/repos/angular/material2/commits/04934b43e303c33bfea2e82f2c5ac4b8d472d095",
+        "html_url": "https://github.com/angular/material2/commit/04934b43e303c33bfea2e82f2c5ac4b8d472d095"
+      }
+    ]
+  },
+  {
+    "sha": "04934b43e303c33bfea2e82f2c5ac4b8d472d095",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6MDQ5MzRiNDNlMzAzYzMzYmZlYTJlODJmMmM1YWM0YjhkNDcyZDA5NQ==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:41:31Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:41:31Z"
+      },
+      "message": "fix(form-field): clear safari autofill icons (#12137)\n\nSimilarly to how we clear the native IE icons, these changes clear Safari's autofill icons so they don't interfere with our own styling.",
+      "tree": {
+        "sha": "3fe61609485c996982d2418f8be37e4871119b6b",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/3fe61609485c996982d2418f8be37e4871119b6b"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/04934b43e303c33bfea2e82f2c5ac4b8d472d095",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/04934b43e303c33bfea2e82f2c5ac4b8d472d095",
+    "html_url": "https://github.com/angular/material2/commit/04934b43e303c33bfea2e82f2c5ac4b8d472d095",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/04934b43e303c33bfea2e82f2c5ac4b8d472d095/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b5fd6ded8f393d7d1b4850800c871893202dc4f6",
+        "url": "https://api.github.com/repos/angular/material2/commits/b5fd6ded8f393d7d1b4850800c871893202dc4f6",
+        "html_url": "https://github.com/angular/material2/commit/b5fd6ded8f393d7d1b4850800c871893202dc4f6"
+      }
+    ]
+  },
+  {
+    "sha": "b5fd6ded8f393d7d1b4850800c871893202dc4f6",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6YjVmZDZkZWQ4ZjM5M2Q3ZDFiNDg1MDgwMGM4NzE4OTMyMDJkYzRmNg==",
+    "commit": {
+      "author": {
+        "name": "Paul Gschwendtner",
+        "email": "paulgschwendtner@gmail.com",
+        "date": "2018-07-12T14:40:45Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:40:45Z"
+      },
+      "message": "fix(slide-toggle): no color demarcation in high contrast black mode (#12150)\n\n* Fixes that there is no way to identify a checked slide-toggle in high contrast mode.\r\n* Fixes that the slide-toggle bar is not visible in high-contrast mode white.\r\n* Moves high contrast CSS to the end of the SCSS file in order to separate normal styles that are required for the slide-toggle from the high contrast custom CSS.",
+      "tree": {
+        "sha": "5a94df8b96a0e63ba232b9941ec41821f7eec617",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/5a94df8b96a0e63ba232b9941ec41821f7eec617"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/b5fd6ded8f393d7d1b4850800c871893202dc4f6",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/b5fd6ded8f393d7d1b4850800c871893202dc4f6",
+    "html_url": "https://github.com/angular/material2/commit/b5fd6ded8f393d7d1b4850800c871893202dc4f6",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/b5fd6ded8f393d7d1b4850800c871893202dc4f6/comments",
+    "author": {
+      "login": "DevVersion",
+      "id": 4987015,
+      "node_id": "MDQ6VXNlcjQ5ODcwMTU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4987015?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DevVersion",
+      "html_url": "https://github.com/DevVersion",
+      "followers_url": "https://api.github.com/users/DevVersion/followers",
+      "following_url": "https://api.github.com/users/DevVersion/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DevVersion/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DevVersion/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DevVersion/subscriptions",
+      "organizations_url": "https://api.github.com/users/DevVersion/orgs",
+      "repos_url": "https://api.github.com/users/DevVersion/repos",
+      "events_url": "https://api.github.com/users/DevVersion/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DevVersion/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "623cd3d2fdbf306d302745d748004a1ddad11c51",
+        "url": "https://api.github.com/repos/angular/material2/commits/623cd3d2fdbf306d302745d748004a1ddad11c51",
+        "html_url": "https://github.com/angular/material2/commit/623cd3d2fdbf306d302745d748004a1ddad11c51"
+      }
+    ]
+  },
+  {
+    "sha": "623cd3d2fdbf306d302745d748004a1ddad11c51",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6NjIzY2QzZDJmZGJmMzA2ZDMwMjc0NWQ3NDgwMDRhMWRkYWQxMWM1MQ==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:40:06Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:40:06Z"
+      },
+      "message": "fix(progress-spinner): circle not rendering correctly when switching modes in Safari (#12151)\n\nFixes the SVG `circle` element not rendering property when switching from `indeterminate` to `determinate` mode.\r\n\r\nFixes #12140.",
+      "tree": {
+        "sha": "297c6f9db61cfb596c4b53a47821619ee56f6479",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/297c6f9db61cfb596c4b53a47821619ee56f6479"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/623cd3d2fdbf306d302745d748004a1ddad11c51",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/623cd3d2fdbf306d302745d748004a1ddad11c51",
+    "html_url": "https://github.com/angular/material2/commit/623cd3d2fdbf306d302745d748004a1ddad11c51",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/623cd3d2fdbf306d302745d748004a1ddad11c51/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eb6c456585aee7ef93e698869eb31c1cd8a444cf",
+        "url": "https://api.github.com/repos/angular/material2/commits/eb6c456585aee7ef93e698869eb31c1cd8a444cf",
+        "html_url": "https://github.com/angular/material2/commit/eb6c456585aee7ef93e698869eb31c1cd8a444cf"
+      }
+    ]
+  },
+  {
+    "sha": "eb6c456585aee7ef93e698869eb31c1cd8a444cf",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6ZWI2YzQ1NjU4NWFlZTdlZjkzZTY5ODg2OWViMzFjMWNkOGE0NDRjZg==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:38:14Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:38:14Z"
+      },
+      "message": "fix(sort): arrow indicator not visible in high contrast mode (#12159)\n\nFixes the sorting header indicator not being visible in high contrast mode.",
+      "tree": {
+        "sha": "30bc27b4befc51dce48704856ee5c9a09e4d3175",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/30bc27b4befc51dce48704856ee5c9a09e4d3175"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/eb6c456585aee7ef93e698869eb31c1cd8a444cf",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/eb6c456585aee7ef93e698869eb31c1cd8a444cf",
+    "html_url": "https://github.com/angular/material2/commit/eb6c456585aee7ef93e698869eb31c1cd8a444cf",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/eb6c456585aee7ef93e698869eb31c1cd8a444cf/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "98b9ed14be69a1bda0af639bc2de52687adb0b34",
+        "url": "https://api.github.com/repos/angular/material2/commits/98b9ed14be69a1bda0af639bc2de52687adb0b34",
+        "html_url": "https://github.com/angular/material2/commit/98b9ed14be69a1bda0af639bc2de52687adb0b34"
+      }
+    ]
+  },
+  {
+    "sha": "98b9ed14be69a1bda0af639bc2de52687adb0b34",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6OThiOWVkMTRiZTY5YTFiZGEwYWY2MzliYzJkZTUyNjg3YWRiMGIzNA==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-12T14:38:01Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-12T14:38:01Z"
+      },
+      "message": "fix(tabs): unable to distinguish disabled tab in high contrast mode (#12160)\n\nFixes disabled tabs being indistinguishable from enabled ones in high contrast mode.",
+      "tree": {
+        "sha": "bae9c8a1e53850ca022a14af9783b72808ccf4bc",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/bae9c8a1e53850ca022a14af9783b72808ccf4bc"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/98b9ed14be69a1bda0af639bc2de52687adb0b34",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/98b9ed14be69a1bda0af639bc2de52687adb0b34",
+    "html_url": "https://github.com/angular/material2/commit/98b9ed14be69a1bda0af639bc2de52687adb0b34",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/98b9ed14be69a1bda0af639bc2de52687adb0b34/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "afb0ee37ebe0342020a9fe8c804b7b43de0ca12e",
+        "url": "https://api.github.com/repos/angular/material2/commits/afb0ee37ebe0342020a9fe8c804b7b43de0ca12e",
+        "html_url": "https://github.com/angular/material2/commit/afb0ee37ebe0342020a9fe8c804b7b43de0ca12e"
+      }
+    ]
+  },
+  {
+    "sha": "afb0ee37ebe0342020a9fe8c804b7b43de0ca12e",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6YWZiMGVlMzdlYmUwMzQyMDIwYTlmZThjODA0YjdiNDNkZTBjYTEyZQ==",
+    "commit": {
+      "author": {
+        "name": "Paul Gschwendtner",
+        "email": "paulgschwendtner@gmail.com",
+        "date": "2018-07-11T15:24:21Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:24:21Z"
+      },
+      "message": "chore: remove screenshot testing (#12155)\n\nRemoves the screenshot test tool since Angular Material is visually being tested inside of Google.",
+      "tree": {
+        "sha": "bd2a819f278921dd5892510a37249aa1682e8ae9",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/bd2a819f278921dd5892510a37249aa1682e8ae9"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/afb0ee37ebe0342020a9fe8c804b7b43de0ca12e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/afb0ee37ebe0342020a9fe8c804b7b43de0ca12e",
+    "html_url": "https://github.com/angular/material2/commit/afb0ee37ebe0342020a9fe8c804b7b43de0ca12e",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/afb0ee37ebe0342020a9fe8c804b7b43de0ca12e/comments",
+    "author": {
+      "login": "DevVersion",
+      "id": 4987015,
+      "node_id": "MDQ6VXNlcjQ5ODcwMTU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4987015?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DevVersion",
+      "html_url": "https://github.com/DevVersion",
+      "followers_url": "https://api.github.com/users/DevVersion/followers",
+      "following_url": "https://api.github.com/users/DevVersion/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DevVersion/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DevVersion/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DevVersion/subscriptions",
+      "organizations_url": "https://api.github.com/users/DevVersion/orgs",
+      "repos_url": "https://api.github.com/users/DevVersion/repos",
+      "events_url": "https://api.github.com/users/DevVersion/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DevVersion/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dc0732bc2c69c6d9cc20d82ecc2ac032cfeb41cc",
+        "url": "https://api.github.com/repos/angular/material2/commits/dc0732bc2c69c6d9cc20d82ecc2ac032cfeb41cc",
+        "html_url": "https://github.com/angular/material2/commit/dc0732bc2c69c6d9cc20d82ecc2ac032cfeb41cc"
+      }
+    ]
+  },
+  {
+    "sha": "dc0732bc2c69c6d9cc20d82ecc2ac032cfeb41cc",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6ZGMwNzMyYmMyYzY5YzZkOWNjMjBkODJlY2MyYWMwMzJjZmViNDFjYw==",
+    "commit": {
+      "author": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:23:00Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2018-07-11T15:23:00Z"
+      },
+      "message": "docs: update README for Q3 2018 (#12143)\n\nFixes #12088",
+      "tree": {
+        "sha": "f23297d07023a01d939e5dca8480782939fc0b15",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/f23297d07023a01d939e5dca8480782939fc0b15"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/dc0732bc2c69c6d9cc20d82ecc2ac032cfeb41cc",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJbRiDUCRBK7hj4Ov3rIwAAdHIIAAVUW7okwbj9NIFlT1uvNO7q\n1acYXCi7ZQs9spOrZoobosg0IuZfRFycyeNiokia4dUqzKZHnevU0k91BaoXcU+L\nlQcOqFy3MYUPicpJGuDiGDSnSINXvGgg2uzH1MvRML4ln59sDklREifcfOj1yhff\nWH5L7a6O0CGP4zm+sGb3I1pRQDulcYMP2t/ph2Pc8olxOG7a4t2B1pXycUgyMLrX\nQFoionYsyJQPnAlNBBZSJDpMUJLZcW6KTIsujQbOsQGvl+phzaUeIFknHlBjOsUn\n8sx2r2fDozjeH+cdwHvxak25RtnCnEh0LFCFPhT0lM7EeAijtg4TD8gzZeaSjqs=\n=pYod\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f23297d07023a01d939e5dca8480782939fc0b15\nparent c43b102118769f51defb5a2a995f80f635169adc\nauthor Jeremy Elbourn <jelbourn@gmail.com> 1531322580 -0700\ncommitter GitHub <noreply@github.com> 1531322580 -0700\n\ndocs: update README for Q3 2018 (#12143)\n\nFixes #12088"
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/dc0732bc2c69c6d9cc20d82ecc2ac032cfeb41cc",
+    "html_url": "https://github.com/angular/material2/commit/dc0732bc2c69c6d9cc20d82ecc2ac032cfeb41cc",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/dc0732bc2c69c6d9cc20d82ecc2ac032cfeb41cc/comments",
+    "author": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c43b102118769f51defb5a2a995f80f635169adc",
+        "url": "https://api.github.com/repos/angular/material2/commits/c43b102118769f51defb5a2a995f80f635169adc",
+        "html_url": "https://github.com/angular/material2/commit/c43b102118769f51defb5a2a995f80f635169adc"
+      }
+    ]
+  },
+  {
+    "sha": "c43b102118769f51defb5a2a995f80f635169adc",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6YzQzYjEwMjExODc2OWY1MWRlZmI1YTJhOTk1ZjgwZjYzNTE2OWFkYw==",
+    "commit": {
+      "author": {
+        "name": "Paul Gschwendtner",
+        "email": "paulgschwendtner@gmail.com",
+        "date": "2018-07-11T15:22:33Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:22:33Z"
+      },
+      "message": "chore: invalid jsdoc in focus-monitor (#12136)",
+      "tree": {
+        "sha": "a4d5ab08e6144d08c23566a317fb19d412ad9d5d",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/a4d5ab08e6144d08c23566a317fb19d412ad9d5d"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/c43b102118769f51defb5a2a995f80f635169adc",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/c43b102118769f51defb5a2a995f80f635169adc",
+    "html_url": "https://github.com/angular/material2/commit/c43b102118769f51defb5a2a995f80f635169adc",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/c43b102118769f51defb5a2a995f80f635169adc/comments",
+    "author": {
+      "login": "DevVersion",
+      "id": 4987015,
+      "node_id": "MDQ6VXNlcjQ5ODcwMTU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4987015?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DevVersion",
+      "html_url": "https://github.com/DevVersion",
+      "followers_url": "https://api.github.com/users/DevVersion/followers",
+      "following_url": "https://api.github.com/users/DevVersion/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DevVersion/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DevVersion/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DevVersion/subscriptions",
+      "organizations_url": "https://api.github.com/users/DevVersion/orgs",
+      "repos_url": "https://api.github.com/users/DevVersion/repos",
+      "events_url": "https://api.github.com/users/DevVersion/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DevVersion/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a05aafead4be26a34283bf93e825934874aef751",
+        "url": "https://api.github.com/repos/angular/material2/commits/a05aafead4be26a34283bf93e825934874aef751",
+        "html_url": "https://github.com/angular/material2/commit/a05aafead4be26a34283bf93e825934874aef751"
+      }
+    ]
+  },
+  {
+    "sha": "a05aafead4be26a34283bf93e825934874aef751",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6YTA1YWFmZWFkNGJlMjZhMzQyODNiZjkzZTgyNTkzNDg3NGFlZjc1MQ==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-11T15:22:08Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:22:08Z"
+      },
+      "message": "fix(drag-drop): add fallback if the placeholder transition doesn't complete (#12121)\n\nSince a lot of functionality depends on the animation completing, these changes add a fallback for the case where there's a transition on the preview, but it doesn't complete for some reason (e.g. it being too short). Currently clicking rapidly on the drag handle can cause it to get stuck and not complete the drop sequence correctly.",
+      "tree": {
+        "sha": "57a55b1141a628fce4b97042d3ea6b5932750973",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/57a55b1141a628fce4b97042d3ea6b5932750973"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/a05aafead4be26a34283bf93e825934874aef751",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/a05aafead4be26a34283bf93e825934874aef751",
+    "html_url": "https://github.com/angular/material2/commit/a05aafead4be26a34283bf93e825934874aef751",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/a05aafead4be26a34283bf93e825934874aef751/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2f9b51f18e0c0ef9a2cc2b5ccabda80ad5408369",
+        "url": "https://api.github.com/repos/angular/material2/commits/2f9b51f18e0c0ef9a2cc2b5ccabda80ad5408369",
+        "html_url": "https://github.com/angular/material2/commit/2f9b51f18e0c0ef9a2cc2b5ccabda80ad5408369"
+      }
+    ]
+  },
+  {
+    "sha": "2f9b51f18e0c0ef9a2cc2b5ccabda80ad5408369",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6MmY5YjUxZjE4ZTBjMGVmOWEyY2MyYjVjY2FiZGE4MGFkNTQwODM2OQ==",
+    "commit": {
+      "author": {
+        "name": "heavybeard",
+        "email": "info@heavybeard.it",
+        "date": "2018-07-11T15:21:49Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:21:49Z"
+      },
+      "message": "chore: fix typo in karma config comment (#12111)",
+      "tree": {
+        "sha": "1a14c541e0abc4ebcca339de8b8bc629eb1eb5d4",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/1a14c541e0abc4ebcca339de8b8bc629eb1eb5d4"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/2f9b51f18e0c0ef9a2cc2b5ccabda80ad5408369",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/2f9b51f18e0c0ef9a2cc2b5ccabda80ad5408369",
+    "html_url": "https://github.com/angular/material2/commit/2f9b51f18e0c0ef9a2cc2b5ccabda80ad5408369",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/2f9b51f18e0c0ef9a2cc2b5ccabda80ad5408369/comments",
+    "author": {
+      "login": "heavybeard",
+      "id": 12038447,
+      "node_id": "MDQ6VXNlcjEyMDM4NDQ3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12038447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/heavybeard",
+      "html_url": "https://github.com/heavybeard",
+      "followers_url": "https://api.github.com/users/heavybeard/followers",
+      "following_url": "https://api.github.com/users/heavybeard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/heavybeard/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/heavybeard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/heavybeard/subscriptions",
+      "organizations_url": "https://api.github.com/users/heavybeard/orgs",
+      "repos_url": "https://api.github.com/users/heavybeard/repos",
+      "events_url": "https://api.github.com/users/heavybeard/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/heavybeard/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f315e3e7e6b85570198930a39e17372a538386f8",
+        "url": "https://api.github.com/repos/angular/material2/commits/f315e3e7e6b85570198930a39e17372a538386f8",
+        "html_url": "https://github.com/angular/material2/commit/f315e3e7e6b85570198930a39e17372a538386f8"
+      }
+    ]
+  },
+  {
+    "sha": "f315e3e7e6b85570198930a39e17372a538386f8",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6ZjMxNWUzZTdlNmI4NTU3MDE5ODkzMGEzOWUxNzM3MmE1MzgzODZmOA==",
+    "commit": {
+      "author": {
+        "name": "Paul Gschwendtner",
+        "email": "paulgschwendtner@gmail.com",
+        "date": "2018-07-11T15:21:04Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:21:04Z"
+      },
+      "message": "build: fix random ngc resolve failures (#12103)\n\n* Depending on the timing for building the assets and building the ESM output (kind of randomly), building the Material package will result in NGC failures. This happens when running the `material:build-no-bundles` task (e.g. unit testing; serving the dev-app) because the assets are built in parallel with the ESM output.\r\n* Removes a duplicated function in the package-tools.",
+      "tree": {
+        "sha": "214605932f1fa349850d8aba0e237b9807dc44ec",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/214605932f1fa349850d8aba0e237b9807dc44ec"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/f315e3e7e6b85570198930a39e17372a538386f8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/f315e3e7e6b85570198930a39e17372a538386f8",
+    "html_url": "https://github.com/angular/material2/commit/f315e3e7e6b85570198930a39e17372a538386f8",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/f315e3e7e6b85570198930a39e17372a538386f8/comments",
+    "author": {
+      "login": "DevVersion",
+      "id": 4987015,
+      "node_id": "MDQ6VXNlcjQ5ODcwMTU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4987015?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DevVersion",
+      "html_url": "https://github.com/DevVersion",
+      "followers_url": "https://api.github.com/users/DevVersion/followers",
+      "following_url": "https://api.github.com/users/DevVersion/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DevVersion/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DevVersion/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DevVersion/subscriptions",
+      "organizations_url": "https://api.github.com/users/DevVersion/orgs",
+      "repos_url": "https://api.github.com/users/DevVersion/repos",
+      "events_url": "https://api.github.com/users/DevVersion/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DevVersion/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "309f830ccd78fa1fbeacb5655d4ac8b41adcc40a",
+        "url": "https://api.github.com/repos/angular/material2/commits/309f830ccd78fa1fbeacb5655d4ac8b41adcc40a",
+        "html_url": "https://github.com/angular/material2/commit/309f830ccd78fa1fbeacb5655d4ac8b41adcc40a"
+      }
+    ]
+  },
+  {
+    "sha": "309f830ccd78fa1fbeacb5655d4ac8b41adcc40a",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6MzA5ZjgzMGNjZDc4ZmExZmJlYWNiNTY1NWQ0YWM4YjQxYWRjYzQwYQ==",
+    "commit": {
+      "author": {
+        "name": "Paul Gschwendtner",
+        "email": "paulgschwendtner@gmail.com",
+        "date": "2018-07-11T15:20:14Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:20:14Z"
+      },
+      "message": "build: enable fullTemplateTypeCheck in aot mode (#12100)\n\nEnables `fullTemplateTypeCheck` in the aot demo app and e2e app.",
+      "tree": {
+        "sha": "f52f30d23994b06a5d1b47734ecfa95753e87a20",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/f52f30d23994b06a5d1b47734ecfa95753e87a20"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/309f830ccd78fa1fbeacb5655d4ac8b41adcc40a",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/309f830ccd78fa1fbeacb5655d4ac8b41adcc40a",
+    "html_url": "https://github.com/angular/material2/commit/309f830ccd78fa1fbeacb5655d4ac8b41adcc40a",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/309f830ccd78fa1fbeacb5655d4ac8b41adcc40a/comments",
+    "author": {
+      "login": "DevVersion",
+      "id": 4987015,
+      "node_id": "MDQ6VXNlcjQ5ODcwMTU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4987015?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DevVersion",
+      "html_url": "https://github.com/DevVersion",
+      "followers_url": "https://api.github.com/users/DevVersion/followers",
+      "following_url": "https://api.github.com/users/DevVersion/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DevVersion/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DevVersion/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DevVersion/subscriptions",
+      "organizations_url": "https://api.github.com/users/DevVersion/orgs",
+      "repos_url": "https://api.github.com/users/DevVersion/repos",
+      "events_url": "https://api.github.com/users/DevVersion/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DevVersion/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "40ff3f9a5ef5b472a8b3f65f49647a40f742c895",
+        "url": "https://api.github.com/repos/angular/material2/commits/40ff3f9a5ef5b472a8b3f65f49647a40f742c895",
+        "html_url": "https://github.com/angular/material2/commit/40ff3f9a5ef5b472a8b3f65f49647a40f742c895"
+      }
+    ]
+  },
+  {
+    "sha": "40ff3f9a5ef5b472a8b3f65f49647a40f742c895",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6NDBmZjNmOWE1ZWY1YjQ3MmE4YjNmNjVmNDk2NDdhNDBmNzQyYzg5NQ==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-11T15:19:43Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:19:43Z"
+      },
+      "message": "build: make body scrollable element in demo (#12093)\n\nReworks the demo to make the `body` the scrollable element. Currently we have the `mat-sidenav-content` be scrollable which doesn't reflect the setup in most apps and makes it harder to test some cases, because of some things like the overlay backdrop blocking scrolling.",
+      "tree": {
+        "sha": "f80a611543e75bac972891dce0b22c242af75910",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/f80a611543e75bac972891dce0b22c242af75910"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/40ff3f9a5ef5b472a8b3f65f49647a40f742c895",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/40ff3f9a5ef5b472a8b3f65f49647a40f742c895",
+    "html_url": "https://github.com/angular/material2/commit/40ff3f9a5ef5b472a8b3f65f49647a40f742c895",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/40ff3f9a5ef5b472a8b3f65f49647a40f742c895/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dd7421db6c38944ee55b852326150b59db130b4e",
+        "url": "https://api.github.com/repos/angular/material2/commits/dd7421db6c38944ee55b852326150b59db130b4e",
+        "html_url": "https://github.com/angular/material2/commit/dd7421db6c38944ee55b852326150b59db130b4e"
+      }
+    ]
+  },
+  {
+    "sha": "dd7421db6c38944ee55b852326150b59db130b4e",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6ZGQ3NDIxZGI2YzM4OTQ0ZWU1NWI4NTIzMjYxNTBiNTlkYjEzMGI0ZQ==",
+    "commit": {
+      "author": {
+        "name": "Paul Gschwendtner",
+        "email": "paulgschwendtner@gmail.com",
+        "date": "2018-07-11T15:19:27Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:19:27Z"
+      },
+      "message": "docs: add example for ripple (#12063)",
+      "tree": {
+        "sha": "80890ee09dc8cb35b38fc0f8e2ecbaa82c3f9bb2",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/80890ee09dc8cb35b38fc0f8e2ecbaa82c3f9bb2"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/dd7421db6c38944ee55b852326150b59db130b4e",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/dd7421db6c38944ee55b852326150b59db130b4e",
+    "html_url": "https://github.com/angular/material2/commit/dd7421db6c38944ee55b852326150b59db130b4e",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/dd7421db6c38944ee55b852326150b59db130b4e/comments",
+    "author": {
+      "login": "DevVersion",
+      "id": 4987015,
+      "node_id": "MDQ6VXNlcjQ5ODcwMTU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4987015?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DevVersion",
+      "html_url": "https://github.com/DevVersion",
+      "followers_url": "https://api.github.com/users/DevVersion/followers",
+      "following_url": "https://api.github.com/users/DevVersion/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DevVersion/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DevVersion/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DevVersion/subscriptions",
+      "organizations_url": "https://api.github.com/users/DevVersion/orgs",
+      "repos_url": "https://api.github.com/users/DevVersion/repos",
+      "events_url": "https://api.github.com/users/DevVersion/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DevVersion/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "118344ef95ce381f964c11588e7b1c318dd5f89c",
+        "url": "https://api.github.com/repos/angular/material2/commits/118344ef95ce381f964c11588e7b1c318dd5f89c",
+        "html_url": "https://github.com/angular/material2/commit/118344ef95ce381f964c11588e7b1c318dd5f89c"
+      }
+    ]
+  },
+  {
+    "sha": "118344ef95ce381f964c11588e7b1c318dd5f89c",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6MTE4MzQ0ZWY5NWNlMzgxZjk2NGMxMTU4OGU3YjFjMzE4ZGQ1Zjg5Yw==",
+    "commit": {
+      "author": {
+        "name": "Jerry Orta",
+        "email": "jerryorta.dev@gmail.com",
+        "date": "2018-07-11T15:19:06Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:19:06Z"
+      },
+      "message": "fix(schematic): parse5 v5.0.0 requires different parse options (#12028)\n\nFixes #12027",
+      "tree": {
+        "sha": "74ae3647c4d6c82f429fdbd6d83e3c8b797e9e93",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/74ae3647c4d6c82f429fdbd6d83e3c8b797e9e93"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/118344ef95ce381f964c11588e7b1c318dd5f89c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/118344ef95ce381f964c11588e7b1c318dd5f89c",
+    "html_url": "https://github.com/angular/material2/commit/118344ef95ce381f964c11588e7b1c318dd5f89c",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/118344ef95ce381f964c11588e7b1c318dd5f89c/comments",
+    "author": {
+      "login": "jerryorta-dev",
+      "id": 341155,
+      "node_id": "MDQ6VXNlcjM0MTE1NQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/341155?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jerryorta-dev",
+      "html_url": "https://github.com/jerryorta-dev",
+      "followers_url": "https://api.github.com/users/jerryorta-dev/followers",
+      "following_url": "https://api.github.com/users/jerryorta-dev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jerryorta-dev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jerryorta-dev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jerryorta-dev/subscriptions",
+      "organizations_url": "https://api.github.com/users/jerryorta-dev/orgs",
+      "repos_url": "https://api.github.com/users/jerryorta-dev/repos",
+      "events_url": "https://api.github.com/users/jerryorta-dev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jerryorta-dev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fdd70823cf1460d46949fa4e31928cda463094f5",
+        "url": "https://api.github.com/repos/angular/material2/commits/fdd70823cf1460d46949fa4e31928cda463094f5",
+        "html_url": "https://github.com/angular/material2/commit/fdd70823cf1460d46949fa4e31928cda463094f5"
+      }
+    ]
+  },
+  {
+    "sha": "fdd70823cf1460d46949fa4e31928cda463094f5",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6ZmRkNzA4MjNjZjE0NjBkNDY5NDlmYTRlMzE5MjhjZGE0NjMwOTRmNQ==",
+    "commit": {
+      "author": {
+        "name": "Paul Gschwendtner",
+        "email": "paulgschwendtner@gmail.com",
+        "date": "2018-07-11T15:18:32Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:18:32Z"
+      },
+      "message": "build: fix small browser test coverage (#11970)\n\n* No longer just runs the tests against the first browser of a test platform (travis, saucelabs, browserstack)\r\n* Stability is more valuable than speed (runs sequentially on CI now)\r\n* Update Saucelabs Connect\r\n* Remove unused spec reporter\r\n* Update from Edge 14 to Edge 17\r\n* Fix pixel deviations in Edge 17",
+      "tree": {
+        "sha": "3d70b5de866d4cbd56da1aeee526e2718c1650d4",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/3d70b5de866d4cbd56da1aeee526e2718c1650d4"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/fdd70823cf1460d46949fa4e31928cda463094f5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/fdd70823cf1460d46949fa4e31928cda463094f5",
+    "html_url": "https://github.com/angular/material2/commit/fdd70823cf1460d46949fa4e31928cda463094f5",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/fdd70823cf1460d46949fa4e31928cda463094f5/comments",
+    "author": {
+      "login": "DevVersion",
+      "id": 4987015,
+      "node_id": "MDQ6VXNlcjQ5ODcwMTU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4987015?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DevVersion",
+      "html_url": "https://github.com/DevVersion",
+      "followers_url": "https://api.github.com/users/DevVersion/followers",
+      "following_url": "https://api.github.com/users/DevVersion/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DevVersion/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DevVersion/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DevVersion/subscriptions",
+      "organizations_url": "https://api.github.com/users/DevVersion/orgs",
+      "repos_url": "https://api.github.com/users/DevVersion/repos",
+      "events_url": "https://api.github.com/users/DevVersion/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DevVersion/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "de107b7e23c63200336e1acca711b7e76d2b2b62",
+        "url": "https://api.github.com/repos/angular/material2/commits/de107b7e23c63200336e1acca711b7e76d2b2b62",
+        "html_url": "https://github.com/angular/material2/commit/de107b7e23c63200336e1acca711b7e76d2b2b62"
+      }
+    ]
+  },
+  {
+    "sha": "de107b7e23c63200336e1acca711b7e76d2b2b62",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6ZGUxMDdiN2UyM2M2MzIwMDMzNmUxYWNjYTcxMWI3ZTc2ZDJiMmI2Mg==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-11T15:13:35Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:13:35Z"
+      },
+      "message": "feat(slider): support two-way binding for value (#12003)\n\nCurrently we support having a two-way binding via `ngModel`, but not through the `value` binding. These changes add support for a two-way binding on the `value`.",
+      "tree": {
+        "sha": "3cab1fdd5a9fa3925b8463333a90d5387f3b4e61",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/3cab1fdd5a9fa3925b8463333a90d5387f3b4e61"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/de107b7e23c63200336e1acca711b7e76d2b2b62",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/de107b7e23c63200336e1acca711b7e76d2b2b62",
+    "html_url": "https://github.com/angular/material2/commit/de107b7e23c63200336e1acca711b7e76d2b2b62",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/de107b7e23c63200336e1acca711b7e76d2b2b62/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "57b066a0a29e0df46af2db92404e076b1a4e1dfa",
+        "url": "https://api.github.com/repos/angular/material2/commits/57b066a0a29e0df46af2db92404e076b1a4e1dfa",
+        "html_url": "https://github.com/angular/material2/commit/57b066a0a29e0df46af2db92404e076b1a4e1dfa"
+      }
+    ]
+  },
+  {
+    "sha": "57b066a0a29e0df46af2db92404e076b1a4e1dfa",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6NTdiMDY2YTBhMjllMGRmNDZhZjJkYjkyNDA0ZTA3NmIxYTRlMWRmYQ==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-11T15:12:39Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:12:39Z"
+      },
+      "message": "fix(datepicker): set role on datepicker popup and aria-haspopup on the datepicker toggle (#12008)\n\nCurrently the datepicker in touch UI mode has `role=\"dialog\"` which is inherited from `MatDialog`, however it doesn't have a role in popup mode. These changes add the proper role for the popup element, in addition to `aria-haspopup` which was missing from the datepicker toggle button.",
+      "tree": {
+        "sha": "510b564a93d580a9371dee931334f65e5ddb7687",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/510b564a93d580a9371dee931334f65e5ddb7687"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/57b066a0a29e0df46af2db92404e076b1a4e1dfa",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/57b066a0a29e0df46af2db92404e076b1a4e1dfa",
+    "html_url": "https://github.com/angular/material2/commit/57b066a0a29e0df46af2db92404e076b1a4e1dfa",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/57b066a0a29e0df46af2db92404e076b1a4e1dfa/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "49119ed0b1f08f418713e700c5b2d675b85de65c",
+        "url": "https://api.github.com/repos/angular/material2/commits/49119ed0b1f08f418713e700c5b2d675b85de65c",
+        "html_url": "https://github.com/angular/material2/commit/49119ed0b1f08f418713e700c5b2d675b85de65c"
+      }
+    ]
+  },
+  {
+    "sha": "49119ed0b1f08f418713e700c5b2d675b85de65c",
+    "node_id": "MDY6Q29tbWl0NDkwMTYzMjI6NDkxMTllZDBiMWYwOGY0MTg3MTNlNzAwYzViMmQ2NzViODVkZTY1Yw==",
+    "commit": {
+      "author": {
+        "name": "Kristiyan Kostadinov",
+        "email": "crisbeto@users.noreply.github.com",
+        "date": "2018-07-11T15:11:39Z"
+      },
+      "committer": {
+        "name": "Jeremy Elbourn",
+        "email": "jelbourn@gmail.com",
+        "date": "2018-07-11T15:11:39Z"
+      },
+      "message": "fix(progress-bar): query animation not working on safari (#12014)\n\nFixes the query animation not working on Safari. The issue comes from the fact that Safari won't resolve references correctly when the page has a `base` tag (which is required by `@angular/router`).",
+      "tree": {
+        "sha": "677d38644020b00a751e3bcf568815fe3089b082",
+        "url": "https://api.github.com/repos/angular/material2/git/trees/677d38644020b00a751e3bcf568815fe3089b082"
+      },
+      "url": "https://api.github.com/repos/angular/material2/git/commits/49119ed0b1f08f418713e700c5b2d675b85de65c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/angular/material2/commits/49119ed0b1f08f418713e700c5b2d675b85de65c",
+    "html_url": "https://github.com/angular/material2/commit/49119ed0b1f08f418713e700c5b2d675b85de65c",
+    "comments_url": "https://api.github.com/repos/angular/material2/commits/49119ed0b1f08f418713e700c5b2d675b85de65c/comments",
+    "author": {
+      "login": "crisbeto",
+      "id": 4450522,
+      "node_id": "MDQ6VXNlcjQ0NTA1MjI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4450522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/crisbeto",
+      "html_url": "https://github.com/crisbeto",
+      "followers_url": "https://api.github.com/users/crisbeto/followers",
+      "following_url": "https://api.github.com/users/crisbeto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/crisbeto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/crisbeto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/crisbeto/subscriptions",
+      "organizations_url": "https://api.github.com/users/crisbeto/orgs",
+      "repos_url": "https://api.github.com/users/crisbeto/repos",
+      "events_url": "https://api.github.com/users/crisbeto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/crisbeto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jelbourn",
+      "id": 838736,
+      "node_id": "MDQ6VXNlcjgzODczNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/838736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jelbourn",
+      "html_url": "https://github.com/jelbourn",
+      "followers_url": "https://api.github.com/users/jelbourn/followers",
+      "following_url": "https://api.github.com/users/jelbourn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jelbourn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jelbourn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jelbourn/subscriptions",
+      "organizations_url": "https://api.github.com/users/jelbourn/orgs",
+      "repos_url": "https://api.github.com/users/jelbourn/repos",
+      "events_url": "https://api.github.com/users/jelbourn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jelbourn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "947c29afcca90050239b0ca5ca0a235585252073",
+        "url": "https://api.github.com/repos/angular/material2/commits/947c29afcca90050239b0ca5ca0a235585252073",
+        "html_url": "https://github.com/angular/material2/commit/947c29afcca90050239b0ca5ca0a235585252073"
+      }
+    ]
+  }
+]

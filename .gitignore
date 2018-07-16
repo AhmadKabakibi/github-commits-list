@@ -37,3 +37,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+
+# TEST FILES
+unit-test-report.txt
+code-quality-report.txt
+cypress/screenshots/**/*.png
+cypress/videos/
