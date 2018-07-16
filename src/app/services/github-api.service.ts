@@ -34,9 +34,9 @@ export class GithubApiService {
     }
 
     return this.http.get<CommitDetails[]>(API + this.repo + '/commits', {
-      headers: {'Authorization': this.token },
+      headers: { 'Authorization': this.token },
       params, observe: 'response'
-     }).pipe(
+    }).pipe(
       map(resp => {
         let lastPageNumber = 1;
         if (resp.headers.has('Link')) {
@@ -66,5 +66,11 @@ export class GithubApiService {
         return match && match.length > 1 ? parseInt(match[1], 10) : 1;
       }
     }
+  }
+
+  public getCommit(sha: string): Observable<CommitDetails> {
+    return this.http.get<CommitDetails>(API + this.repo + '/commits/' + sha, {
+      headers: { 'Authorization': this.token }
+    });
   }
 }

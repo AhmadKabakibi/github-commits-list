@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app/app.component';
 import { CommitsOverviewComponent } from './components/commits-overview/commits-overview.component';
 import { CommitsFilterComponent } from './components/commits-filter/commits-filter.component';
+import { CommitDetailsComponent } from './components/commit-details/commit-details.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { FirstLinePipe } from './pipes/first-line-pipe';
 
@@ -19,7 +20,8 @@ import { GITHUB_REPO, TOKEN , GithubApiService } from './services';
     CommitsOverviewComponent,
     NotFoundComponent,
     FirstLinePipe,
-    CommitsFilterComponent
+    CommitsFilterComponent,
+    CommitDetailsComponent
   ],
   imports: [
     BrowserModule,

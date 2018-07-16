@@ -1,0 +1,46 @@
+<p>
+  commit-details works!
+</p>
+
+
+<div class="wrapper">
+    <div class="panel author">
+      <h3>Author:</h3>
+      <div class="content">
+        <a [href]="commitDetails?.author.html_url" target="_blank">
+          <figure class="avatar-wrapper">
+            <img [src]="commitDetails?.author.avatar_url" class="avatar">
+          </figure>
+        </a>
+        <div class="name">
+          <a [href]="commitDetails?.author.html_url" target="_blank">
+            {{commitDetails?.commit.author.name}}
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="panel committer">
+      <h3>Committer:</h3>
+      <div class="content">
+        <a [href]="commitDetails?.committer.html_url" target="_blank">
+          <figure class="avatar-wrapper">
+            <img [src]="commitDetails?.committer.avatar_url" class="avatar">
+          </figure>
+        </a>
+        <div class="name">
+          <a [href]="commitDetails?.author.html_url" target="_blank">
+            {{commitDetails?.commit.committer.name}}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel commit">
+    <h3>SHA:</h3>
+    <div class="sha">{{commitDetails?.sha}}</div>
+    <h3>Commit message:</h3>
+    <div class="message">{{commitDetails?.commit.message}}</div>
+  </div>
+  
+  
+  

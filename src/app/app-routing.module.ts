@@ -2,12 +2,17 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { CommitsOverviewComponent } from './components/commits-overview/commits-overview.component';
+import { CommitDetailsComponent } from './components/commit-details/commit-details.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 
 const appRoutes: Routes = [
     {
         path: 'overview',
         component: CommitsOverviewComponent
+    },
+    {
+        path: 'commit/:sha',
+        component: CommitDetailsComponent
     },
     {
         path: '',

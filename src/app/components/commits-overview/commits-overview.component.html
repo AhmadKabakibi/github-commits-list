@@ -12,7 +12,7 @@
   </thead>
   <tbody>
     <tr *ngFor="let item of commitsList">
-      <td>{{item.sha}}</td>
+      <td (click)="onCommitClick(item.sha)">{{item.sha}}</td>
       <td>{{item.commit.message | firstLine}}</td>
       <td>{{item.commit.author.date}}</td>
     </tr>

@@ -60,6 +60,10 @@ export class CommitsOverviewComponent implements OnInit, OnDestroy {
     });
   }
 
+  onCommitClick(sha: CommitDetails): void {
+    this.router.navigate(['/commit', sha]);
+  }
+
   ngOnDestroy() {
     this.searchCommits.complete();
     this.unsubscribe.next();
